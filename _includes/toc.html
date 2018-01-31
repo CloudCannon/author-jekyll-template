@@ -1,0 +1,9 @@
+{% if site.data.settings.table_of_contents %}
+<h3 id="toc">Table of contents</h3>
+<ul class="toc">
+	{% assign chapters = site.chapters | sort: 'chapter' %}
+	{% for chapter in chapters %}
+		<li>{% include chapter-link.html links=include.links chapter=chapter %}</li>
+	{% endfor %}
+</ul>
+{% endif %}

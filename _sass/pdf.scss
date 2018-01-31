@@ -1,0 +1,65 @@
+@page {
+	size: a5;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 80pt 0;
+}
+
+@page :first {
+	// padding: 0;
+	// margin:0;
+}
+
+.pdf-cover {
+	display: block;
+	-webkit-print-color-adjust: exact !important;
+}
+
+.wrap {
+	max-width: none;
+	padding: 0 50pt;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.formats, .book {
+	display: none;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+a {
+	color: #000;
+}
+
+h2, #toc {
+	page-break-before: always;
+}
+
+.toc, .cover {
+	page-break-after: always;
+}
+
+.cover {
+	background-image: none !important;
+	background: #000;
+	height: 100vh;
+	color: #fff;
+	display: flex;
+	text-align: center;
+	align-items: center;
+
+	.background {
+		display: block;
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-height: none;
+	}
+}
+

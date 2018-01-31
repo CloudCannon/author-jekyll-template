@@ -1,0 +1,12 @@
+---
+title: Postface
+---
+Alice was published in 1865, three years after Charles Lutwidge Dodgson and the Reverend Robinson Duckworth rowed in a boat, on 4 July 1862 (this popular date of the "golden afternoon" might be a confusion or even another Alice-tale, for that particular day was cool, cloudy and rainy), up the Isis with the three young daughters of Henry Liddell (the Vice-Chancellor of Oxford University and Dean of Christ Church): Lorina Charlotte Liddell (aged 13, born 1849) ("Prima" in the book's prefatory verse); Alice Pleasance Liddell (aged 10, born 1852) ("Secunda" in the prefatory verse); Edith Mary Liddell (aged 8, born 1853) ("Tertia" in the prefatory verse).
+
+The journey began at Folly Bridge near Oxford and ended five miles away in the village of Godstow. During the trip the Reverend Dodgson told the girls a story that featured a bored little girl named Alice who goes looking for an adventure. The girls loved it, and Alice Liddell asked Dodgson to write it down for her. He began writing the manuscript of the story the next day, although that earliest version no longer exists. The girls and Dodgson took another boat trip a month later when he elaborated the plot to the story of Alice, and in November he began working on the manuscript in earnest.
+
+To add the finishing touches he researched natural history for the animals presented in the book, and then had the book examined by other children—particularly the children of George MacDonald. He added his own illustrations but approached John Tenniel to illustrate the book for publication, telling him that the story had been well liked by children.
+
+On 26 November 1864 he gave Alice the handwritten manuscript of Alice's Adventures Under Ground, with illustrations by Dodgson himself, dedicating it as "A Christmas Gift to a Dear Child in Memory of a Summer's Day". Some, including Martin Gardner, speculate there was an earlier version that was destroyed later by Dodgson when he wrote a more elaborate copy by hand.
+
+But before Alice received her copy, Dodgson was already preparing it for publication and expanding the 15,500-word original to 27,500 words, most notably adding the episodes about the Cheshire Cat and the Mad Tea-Party.

@@ -1,0 +1,8 @@
+---
+layout: chapters
+toc: hash
+---
+{% assign chapters = site.chapters | sort: 'chapter' %}
+{% for chapter in chapters %}
+	{% include chapter.html chapter=chapter %}
+{% endfor %}

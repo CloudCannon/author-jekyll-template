@@ -1,0 +1,11 @@
+---
+layout: chapters
+---
+{% include chapter.html chapter=page %}
+
+{% assign next_chapter_number = page.chapter | plus: 1 %}
+{% assign next_chapter = site.chapters | where: 'chapter', next_chapter_number | first %}
+{% if next_chapter %}
+	<hr>
+	<p>Next chapter: {% include chapter-link.html chapter=next_chapter %}</p>
+{% endif %}

@@ -1,0 +1,33 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "chapters"
+    values:
+      layout: "chapter"
+
+collections:
+  chapters:
+    output: true
+  extras:
+
+title: Alice's Adventures In Wonderland
+author: Lewis Carroll
+
+_options:
+  content:
+    format: "h3 h4 h5 h6 p"
+    bold: true
+    italic: true
+    removeformat: true
+    link: true
+    blockquote: true
+    numberedlist: true
+    bulletedlist: true
+    image: true
+    underline: true
+    table: true

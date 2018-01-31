@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<div class="cover" >
+	<div class="wrap">
+		<div class="book">
+			<div class="front-cover" style="background-image: url({{ site.data.settings.cover_image }})">
+				<div class="cover-content">
+					<h1>{{ site.title }}</h1>
+					<p class="author">By {{ site.author }}</p>
+				</div>
+			</div>
+			<ul class="ruled_paper">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="back-cover"></div>
+		</div>
+		<div class="pdf-cover">
+			<h1>{{ site.title }}</h1>
+			<p class="author">By {{ site.author }}</p>
+		</div>
+	</div>
+	<img src="{{ site.data.settings.cover_image }}" class="background">
+</div>
+
+<p class="wrap formats">
+		<a {% if page.url == '/' %}class="active"{% endif %} href="/">Chapter HTML</a>
+	&#183;
+		<a {% if page.url == '/full.html' %}class="active"{% endif %} href="/full.html">Book HTML</a>
+	&#183;
+		<a href="/full.html#print-book">PDF</a>
+</p>
+
+<div class="wrap">
+	{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter == 1 %}
+		{% assign preface = site.extras | where: 'title', 'Preface' | first %}
+		<h2>Preface</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/{{ preface.path }}" class="btn"><strong>&#9998;</strong> Edit Preface</a></p>
+		{{ preface.content | markdownify }}
+		<hr>
+	{% endif %}
+
+	{% include toc.html links=page.toc %}
+</div>
+
+<div class="content">
+	<div class="wrap">
+		{{ content }}
+	</div>
+</div>
+
+
+{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter == 12 %}
+	<div class="wrap">
+		<hr>
+		{% assign postface = site.extras | where: 'title', 'Postface' | first %}
+		<h2>Postface</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/{{ postface.path }}" class="btn"><strong>&#9998;</strong> Edit Postface</a></p>
+		{{ postface.content | markdownify }}
+	</div>
+{% endif %}
