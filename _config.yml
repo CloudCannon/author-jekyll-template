@@ -1,3 +1,17 @@
+# ----
+# Site
+
+title: Alice's Adventures In Wonderland
+author: Lewis Carroll
+url: "https://adored-walnut.cloudvent.net/"
+baseurl:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
 defaults:
   -
     scope:
@@ -14,9 +28,9 @@ collections:
   chapters:
     output: true
   extras:
-
-title: Alice's Adventures In Wonderland
-author: Lewis Carroll
+  
+# ----
+# CloudCannon
 
 _options:
   content:
