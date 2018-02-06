@@ -6,6 +6,9 @@ author: Lewis Carroll
 url: "https://adored-walnut.cloudvent.net/"
 baseurl:
 
+# -----
+# Build
+
 exclude:
   - Gemfile
   - Gemfile.lock
