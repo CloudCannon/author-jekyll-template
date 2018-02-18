@@ -1,5 +1,5 @@
 ---
-chapter: 10
+chapter_number: 10
 title: The Lobster Quadrille
 ---
 The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. ‘Same as if he had a bone in his throat,’ said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—

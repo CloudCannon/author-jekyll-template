@@ -32,11 +32,11 @@ layout: default
 	&#183;
 		<a {% if page.url == '/full.html' %}class="active"{% endif %} href="/full.html">Book HTML</a>
 	&#183;
-		<a href="/full.html#print-book">PDF</a>
+		<a href="/full.html#print-book">Print</a>
 </p>
 
 <div class="wrap">
-	{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter == 1 %}
+	{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter_number == 1 %}
 		{% assign preface = site.extras | where: 'title', 'Preface' | first %}
 		<h2>Preface</h2>
 		<p class="editor-link"><a href="cloudcannon:collections/{{ preface.path }}" class="btn"><strong>&#9998;</strong> Edit Preface</a></p>
@@ -54,7 +54,7 @@ layout: default
 </div>
 
 
-{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter == 12 %}
+{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter_number == 12 %}
 	<div class="wrap">
 		<hr>
 		{% assign postface = site.extras | where: 'title', 'Postface' | first %}

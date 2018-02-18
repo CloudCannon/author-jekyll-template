@@ -1,5 +1,5 @@
 ---
-chapter: 3
+chapter_number: 3
 title: A Caucus-Race and a Long Tale
 ---
 

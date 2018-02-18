@@ -5,6 +5,17 @@ title: Alice's Adventures In Wonderland
 author: Lewis Carroll
 url: "https://adored-walnut.cloudvent.net/"
 baseurl:
+google_analytics_key:
+logo: /siteicon.png
+description: Book template for Jekyll.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Author Template
+  links:
+    - https://github.com/CloudCannon/author-jekyll-template
 
 # -----
 # Build
@@ -23,6 +34,11 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "_chapters/1-down-the-rabbit-hole.md"
+    values:
+      permalink: "/"
+  -
+    scope:
       type: "chapters"
     values:
       layout: "chapter"
@@ -31,7 +47,7 @@ collections:
   chapters:
     output: true
   extras:
-  
+
 # ----
 # CloudCannon
 

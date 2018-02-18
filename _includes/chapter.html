@@ -1,3 +1,3 @@
-<h2 id="{{ include.chapter.title | slugify }}"><span class="chapter-number">Chapter {{ include.chapter.chapter }}.</span> {{ include.chapter.title }}</h2>
-<p class="editor-link"><a href="cloudcannon:collections/{{ include.chapter.path }}" class="btn"><strong>&#9998;</strong> Edit Chapter {{ include.chapter.chapter }}</a></p>
+<h2 id="{{ include.chapter.title | slugify }}"><span class="chapter-number">Chapter {{ include.chapter.chapter_number }}.</span> {{ include.chapter.title }}</h2>
+<p class="editor-link"><a href="cloudcannon:collections/{{ include.chapter.path }}" class="btn"><strong>&#9998;</strong> Edit Chapter {{ include.chapter.chapter_number }}</a></p>
 {{ include.chapter.content | markdownify }}

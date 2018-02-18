@@ -1,5 +1,5 @@
 ---
-chapter: 7
+chapter_number: 7
 title: A Mad Tea-Party
 ---
 There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. ‘Very uncomfortable for the Dormouse,’ thought Alice; ‘only, as it’s asleep, I suppose it doesn’t mind.’

@@ -4,7 +4,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+			<script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '{{ site.google_analytics_key }}', 'auto');
+				ga('send', 'pageview');
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		{% endif %}
+
+		{% seo %}
+
 		<link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
 		<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
 		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">

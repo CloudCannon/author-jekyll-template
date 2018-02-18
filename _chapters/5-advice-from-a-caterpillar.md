@@ -1,5 +1,5 @@
 ---
-chapter: 5
+chapter_number: 5
 title: Advice from a Caterpillar
 ---
 The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.

@@ -40,7 +40,3 @@ $ bundle exec jekyll serve
 ## Editing
 
 Author is already optimised for adding, updating and removing chapters in CloudCannon.
-
-## PDF notes
-
-Initially we looked at using `jekyll-pdf` to output the PDF, however this library was too limited in how it handle's page margins. At this stage we're using the browser's print functionality. This isn't ideal as it's inconsistent across browsers, we'll review this in the future as PDF libraries mature.
