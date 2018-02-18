@@ -2,14 +2,13 @@
 # Site
 
 title: Alice's Adventures In Wonderland
-author: Lewis Carroll
 url: "https://adored-walnut.cloudvent.net/"
 baseurl:
 google_analytics_key:
 logo: /siteicon.png
 description: Book template for Jekyll.
 author:
-  name:
+  name: Lewis Carroll
   email:
   twitter: # twitter username without the @ symbol
 social:
@@ -39,6 +38,13 @@ defaults:
       path: "_chapters/1-down-the-rabbit-hole.md"
     values:
       permalink: "/"
+      layout: "chapter"
+  -
+    scope:
+      path: "full.html"
+    values:
+      layout: "chapters"
+      toc: "hash"
   -
     scope:
       type: "chapters"
@@ -66,3 +72,7 @@ _options:
     image: true
     underline: true
     table: true
+
+_comments:
+  cover_image: Used as the background of the book cover.
+  table_of_contents: Shows/hides the tables of contents.

@@ -1,39 +1,6 @@
 ---
 layout: default
 ---
-<div class="cover" >
-	<div class="wrap">
-		<div class="book">
-			<div class="front-cover" style="background-image: url({{ site.data.settings.cover_image }})">
-				<div class="cover-content">
-					<h1>{{ site.title }}</h1>
-					<p class="author">By {{ site.author }}</p>
-				</div>
-			</div>
-			<ul class="ruled_paper">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<div class="back-cover"></div>
-		</div>
-		<div class="pdf-cover">
-			<h1>{{ site.title }}</h1>
-			<p class="author">By {{ site.author }}</p>
-		</div>
-	</div>
-	<img src="{{ site.data.settings.cover_image }}" class="background">
-</div>
-
-<p class="wrap formats">
-		<a {% if page.url == '/' %}class="active"{% endif %} href="/">Chapter HTML</a>
-	&#183;
-		<a {% if page.url == '/full.html' %}class="active"{% endif %} href="/full.html">Book HTML</a>
-	&#183;
-		<a href="/full.html#print-book">Print</a>
-</p>
 
 <div class="wrap">
 	{% if page.url == '/full.html' or page.url == '/full.pdf' or page.chapter_number == 1 %}
