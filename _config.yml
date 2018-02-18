@@ -20,6 +20,8 @@ social:
 # -----
 # Build
 
+timezone: Etc/UTC
+
 exclude:
   - Gemfile
   - Gemfile.lock
