@@ -25,7 +25,7 @@
 		<div class="cover" >
 			<div class="wrap">
 				<div class="book">
-					<div class="front-cover" style="background-image: url({{ site.data.settings.cover_image }})">
+					<div class="front-cover" style="background-image: url({{ site.baseurl }}{{ site.data.settings.cover_image }})">
 						<div class="cover-content">
 							<h1>{{ site.title }}</h1>
 							<p class="author">By {{ site.author.name }}</p>
@@ -45,20 +45,20 @@
 					<p class="author">By {{ site.author.name }}</p>
 				</div>
 			</div>
-			<img src="{{ site.data.settings.cover_image }}" class="background">
+			<img src="{{ site.baseurl }}{{ site.data.settings.cover_image }}" class="background">
 		</div>
 
 		<p class="wrap formats">
-				<a {% if page.url == '/' %}class="active"{% endif %} href="/">Chapter HTML</a>
+				<a {% unless page.url contains 'full' %}class="active"{% endunless %} href="{{ site.baseurl }}/">Chapter HTML</a>
 			&#183;
-				<a {% if page.url == '/full.html' %}class="active"{% endif %} href="/full.html">Book HTML</a>
+				<a {% if page.url == '/full.html' %}class="active"{% endif %} href="{{ site.baseurl }}/full.html">Book HTML</a>
 			&#183;
-				<a href="/full.html#print-book">Print</a>
+				<a href="{{ site.baseurl }}/full.html#print-book">Print</a>
 		</p>
 
 		{{ content }}
 		<a href="#toc" class="go-top">Back to top</a>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
 	</body>
 </html>
