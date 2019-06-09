@@ -1,9 +1,9 @@
 {% if include.links == 'hash' %}
-	<a href="#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
+	<a href="{{ site.baseurl }}#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
 {% else %}
 	{% if chapter.url == page.url %}
-		<a class="active" href="{{ include.chapter.url }}#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
+		<a class="active" href="{{ site.baseurl }}/{{ include.chapter.url }}#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
 	{% else %}
-		<a href="{{ include.chapter.url }}#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
+		<a href="{{ site.baseurl }}/{{ include.chapter.url }}#{{ include.chapter.title | slugify }}">{% include chapter-text.html chapter=include.chapter %}</a>
 	{% endif %}
 {% endif %}
