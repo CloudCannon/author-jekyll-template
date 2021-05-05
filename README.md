@@ -1,6 +1,6 @@
 # Author
 
-Book publishing template for Jekyll. Browse through a [live demo](https://adored-walnut.cloudvent.net/).
+Book publishing template for Jekyll. Browse through a [live demo](https://petite-spider.cloudvent.net/).
 
 ![Author template screenshot](images/_screenshot.png)
 
