@@ -22,31 +22,27 @@ social:
 timezone: Etc/UTC
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
   - LICENCE
 
+permalink: pretty
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_chapters/1-down-the-rabbit-hole.md"
     values:
       permalink: "/"
       layout: "chapter"
-  -
-    scope:
+  - scope:
       path: "full.html"
     values:
       layout: "chapters"
       toc: "hash"
-  -
-    scope:
+  - scope:
       type: "chapters"
     values:
       layout: "chapter"
@@ -56,7 +52,7 @@ collections:
     output: true
   extras:
 
-# ----
+# -----------
 # CloudCannon
 
 _options:
