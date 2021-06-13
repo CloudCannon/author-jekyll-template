@@ -4,7 +4,7 @@ Book publishing template for Jekyll. Browse through a [live demo](https://petite
 
 ![Author template screenshot](images/_screenshot.png)
 
-Author was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+Author was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 Find more templates and themes at [CloudCannon Academy](https://learn.cloudcannon.com/jekyll-templates/).
 
 Learn Jekyll with step-by-step tutorials and videos at [CloudCannon Academy](https://learn.cloudcannon.com/).
@@ -23,9 +23,9 @@ Learn Jekyll with step-by-step tutorials and videos at [CloudCannon Academy](htt
 
 ## Develop
 
-Author was built with [Jekyll](http://jekyllrb.com/) version 3.7.2, but should support newer versions as well.
+Author was built with [Jekyll](https://jekyllrb.com/) version 3.7.2, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install
